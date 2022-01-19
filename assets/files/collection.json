@@ -1,0 +1,286 @@
+{
+	"info": {
+		"_postman_id": "2b88d18f-007d-459d-b952-39ee682cc793",
+		"name": "Dahlizee",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Otp Api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "phone",
+							"value": "8764454177",
+							"type": "text"
+						},
+						{
+							"key": "login",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://dahlizeeapp.i4dev.in/api/otp",
+					"protocol": "https",
+					"host": [
+						"dahlizeeapp",
+						"i4dev",
+						"in"
+					],
+					"path": [
+						"api",
+						"otp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Register ",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Manoj ",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "8764454179",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ma@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "shop",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://dahlizeeapp.i4dev.in/api/user-create",
+					"protocol": "https",
+					"host": [
+						"dahlizeeapp",
+						"i4dev",
+						"in"
+					],
+					"path": [
+						"api",
+						"user-create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Home Screen",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "type",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "api_token",
+							"value": "61C43454B7B8C",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://dahlizeeapp.i4dev.in/api/home-screen",
+					"protocol": "https",
+					"host": [
+						"dahlizeeapp",
+						"i4dev",
+						"in"
+					],
+					"path": [
+						"api",
+						"home-screen"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "type",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "api_token",
+							"value": "61C43454B7B8C",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://dahlizeeapp.i4dev.in/api/categories",
+					"protocol": "https",
+					"host": [
+						"dahlizeeapp",
+						"i4dev",
+						"in"
+					],
+					"path": [
+						"api",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All Products",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "type",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "api_token",
+							"value": "61C43454B7B8C",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://dahlizeeapp.i4dev.in/api/products",
+					"protocol": "https",
+					"host": [
+						"dahlizeeapp",
+						"i4dev",
+						"in"
+					],
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Single Category",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "type",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "api_token",
+							"value": "61C43454B7B8C",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://dahlizeeapp.i4dev.in/api/single-category",
+					"protocol": "https",
+					"host": [
+						"dahlizeeapp",
+						"i4dev",
+						"in"
+					],
+					"path": [
+						"api",
+						"single-category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Single Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "type",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "api_token",
+							"value": "61C43454B7B8C",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://dahlizeeapp.i4dev.in/api/single-product",
+					"protocol": "https",
+					"host": [
+						"dahlizeeapp",
+						"i4dev",
+						"in"
+					],
+					"path": [
+						"api",
+						"single-product"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
